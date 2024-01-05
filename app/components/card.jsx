@@ -56,7 +56,7 @@ export default function Card() {
           </article>
         </section>
 
-        <section className="flex items-center space-x-3 text-[10px] font-bold capitalize text-desaturatedDarkCyan border py-5 md:py-0">
+        <section className="flex items-center overflow-x-scroll space-x-3 text-[10px] font-bold capitalize text-desaturatedDarkCyan py-5 md:py-0">
 
           {languages.concat(tools, role, level).map((item, index) => {
             return (
